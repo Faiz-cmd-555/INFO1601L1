@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1><p>This is my first website</p><br></h1>
+        </header>
+        <article>
+            <section>
+                <p>Welcome</p>
+            </section>
+
+            <section>
+                <figure>
+                    <img src="https://t3.ftcdn.net/jpg/06/26/10/72/360_F_626107201_XoYxc0Iv3vsBeCYC8Ov5fu4W04HLuzVB.jpg" alt="a random cat">
+                    <figcaption>Fig 1. A random cat</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <details>
+                   <summary>Hobbies</summary>
+                   <ul>
+                    <li>Swimming</li>
+                    <li>Coding</li>
+                    <li>Music</li>
+                    <li>Memeing</li>
+                </ul>
+               </details>
+            </section>
+
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+        </article>
+    </body>
+</html>
